@@ -10,6 +10,9 @@ import Welcome5 from './src/screens/welcome5';
 import Welcome6 from './src/screens/welcome6';
 import Signin from './src/screens/signin';
 import SignUp from './src/screens/createacc';
+import Home from './src/screens/home';
+import Movieoke from './src/screens/movieoke';
+import PlayGame from './src/screens/play';
 
 
 
@@ -60,6 +63,21 @@ function MyStack() {
       <Stack.Screen 
         name="Signup" 
         component={SignUp} 
+        options={{ headerShown: false}} 
+      />
+      <Stack.Screen 
+        name="Home" 
+        component={Home} 
+        options={{ headerShown: false}} 
+      />
+      <Stack.Screen 
+        name="Movieoke" 
+        component={Movieoke} 
+        options={{ headerShown: false}} 
+      />
+      <Stack.Screen 
+        name="Playgame" 
+        component={PlayGame} 
         options={{ headerShown: false}} 
       />
       

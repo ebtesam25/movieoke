@@ -39,7 +39,7 @@ export default function Signin() {
             </View>
             <Text style={{fontFamily:'ProximaBold', textAlign:'left', marginLeft:'15%', fontSize:15}}>forgot your password?</Text>
             <View style={{marginTop:'15%', width:'70%', backgroundColor:'#373772', alignSelf:'center', borderRadius:50}}>
-                <Text style={{fontFamily:'ProximaBold', color:'#FFF', fontSize:15, paddingVertical:'7.5%', textAlign:'center'}} onPress={()=>navigation.navigate('Welcome5')}>Sign in</Text>
+                <Text style={{fontFamily:'ProximaBold', color:'#FFF', fontSize:15, paddingVertical:'7.5%', textAlign:'center'}} onPress={()=>navigation.navigate('Home')}>Sign in</Text>
             </View>
            
             

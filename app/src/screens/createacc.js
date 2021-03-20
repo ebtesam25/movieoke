@@ -42,13 +42,13 @@ export default function SignUp() {
                 paddingLeft:'5%', textAlign:'left', width:'80%', backgroundColor:'#F4F7FF', borderRadius:50, paddingVertical:'5%'}} placeholderTextColor={`rgba(55, 55, 114, 0.3)`}></TextInput>
             </View>
             <View style={{marginTop:'5%', width:'70%', backgroundColor:'#373772', alignSelf:'center', borderRadius:50}}>
-                <Text style={{fontFamily:'ProximaBold', color:'#FFF', fontSize:15, paddingVertical:'7.5%', textAlign:'center'}} onPress={()=>navigation.navigate('Welcome5')}>Create account</Text>
+                <Text style={{fontFamily:'ProximaBold', color:'#FFF', fontSize:15, paddingVertical:'7.5%', textAlign:'center'}} onPress={()=>navigation.navigate('Home')}>Create account</Text>
             </View>
            
             
 
           
-            <Text style={{fontFamily:'ProximaBold', textAlign:'center', fontSize:15, marginTop:'5%'}}>or create an account</Text>
+            <Text style={{fontFamily:'ProximaBold', textAlign:'center', fontSize:15, marginTop:'5%'}}>or sign in</Text>
         </View>
     );
 
